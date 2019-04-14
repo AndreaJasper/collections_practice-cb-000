@@ -1,3 +1,7 @@
 def sort_array_asc(array)
-  new_order = array.sort
+  copy = array.sort
+end
+
+def sort_array_desc(array)
+  
 end
