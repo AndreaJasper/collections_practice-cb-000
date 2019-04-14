@@ -23,7 +23,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-
+  str_a = array.start_with(*array)
 end
 
 def sum_array(array)
@@ -31,5 +31,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect{|element, index| yield element if index = 1}
+  array.each_with_index.collect{}|element, index|
+    if index < 1 || index > 1
+      return false
+    else
+
 end
