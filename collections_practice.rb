@@ -31,10 +31,12 @@ def sum_array(array)
   array.inject(0){|sum, x| sum + x}
 end
 
-#def add_s(array)
-#  array.each_with_index.collect{}|element, index|
-#    if index < 1 || index > 1
-#      return false
-#    else
-
-#end
+def add_s(array)
+  array.each_with_index.collect{|element, index|
+    if index != "feet"
+      element << "s"
+    else
+      element
+    end
+  }
+end
